@@ -478,7 +478,7 @@ a{
 @media(max-width: 940px){
 
     .container{
-        padding: 0 60px;
+        padding: 0 50px;
     }
 
     .hand-informatipn{
@@ -489,14 +489,14 @@ a{
         text-align: center;
     }
 
-    .btn{
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
     .text{
         font-size: 16px;
         text-align: center;
+    }
+
+    .btn{
+        margin: 0 auto;
+        margin-top: 20px;
     }
 
     .hand-informatipn{
@@ -544,11 +544,16 @@ a{
 
     .download_text{
         font-size: 16px;
+        padding: 0 40px;
     }
 
 }
 
 @media(max-width: 840px){
+
+    .container{
+        padding: 0;
+    }
 
     .hand__heading{
         font-size: 30px;
@@ -584,6 +589,14 @@ a{
 
 @media(max-width: 670px){
 
+    .hand__heading{
+        padding: 0 30px;
+    }
+
+    .text{
+        padding: 0 30px;
+    }
+
     .download_button{
         flex-direction: column;
         justify-content: center;
@@ -599,4 +612,16 @@ a{
         
     }
 
+    
+
+}
+
+@media(max-width: 450px){
+    .community__ptotos{
+        max-width: 200px;
+    }
+
+    .community__img{
+        max-width: 200px;
+    }
 }
