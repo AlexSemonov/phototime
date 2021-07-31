@@ -448,6 +448,87 @@ a{
     display: block;
 }
 
+@media(max-width: 1024px){
+    .container{
+        padding: 0 50px;
+    }
+
+    .footer_content{
+        flex-direction: column;
+    }
+
+    .footer_img{
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    .footer_nav{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+@media(max-width: 940px){
+
+    .container{
+        padding: 0 60px;
+    }
+
+    .hand-informatipn{
+        margin: 0 auto;
+    }
+
+    .hand__heading{
+        text-align: center;
+    }
+
+    .btn{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .text{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .hand-informatipn{
+        margin-bottom: 40px;
+    }
+
+    .hand__inner{
+        display: none;
+    }
+
+    .iphone{
+        display: none;
+    }
+
+    .design__content{
+        flex-direction: column;
+    }
+
+    .iphone_03{
+        order: 1;
+        margin: 0 auto;
+    }
+
+      .community_item{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .community_desc{
+        margin: 0;
+    }
 
 
-
+}
