@@ -40,7 +40,7 @@ a{
 }
 
 .nav{
-    max-width: 770px;
+    width: 770px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,13 +50,20 @@ a{
     display: none;
 }
 
+.burger_inner{
+    display: none;
+}
+
 .element{
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
-    margin-right: 100px;
     transition: 0.2s opacity linear;
+}
+
+.element_img{
+    display: block;
 }
 
 .element:last-child{
@@ -115,13 +122,13 @@ a{
 }
 
 .last_element{
+    width: 100px;
     display: flex;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .tvitter_git{
-    margin-right: 16px;
     transition: 00.2s linear;
 }
 
@@ -655,6 +662,7 @@ a{
     }
 
     .burger_inner{
+        display: block;
         width: 100%;
         height: 5px;
         background-color: #fff;
