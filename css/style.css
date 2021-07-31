@@ -488,6 +488,10 @@ a{
 }
 
 @media(max-width: 1024px){
+    .element{
+        margin-right: 50px;
+    }
+
     .container{
         padding: 0 50px;
     }
@@ -622,6 +626,10 @@ a{
 }
 
 @media(max-width: 740px){
+
+    .element{
+        margin-right: 20px;
+    }
 
     .hand__heading{
         padding: 0 30px;
