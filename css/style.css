@@ -458,11 +458,22 @@ a{
 }
 
 .nav_inner{
+    color: black;
     margin-right: 20px;
+    transition: 0.2s linear;
 }
 
 .nav_inner:last-child{
     margin: 0;
+}
+
+.nav_inner:hover{
+    color: #16A085;
+}
+
+.partition{
+    color: #16A085;
+    margin-right: 20px
 }
 
 .footer_inner{
