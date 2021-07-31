@@ -530,5 +530,73 @@ a{
         margin: 0;
     }
 
+    .community_heading{
+        font-size: 20px;
+    }
+
+    .community_text{
+        font-size: 16px;
+    }
+
+    .download_heading{
+        font-size: 20px;
+    }
+
+    .download_text{
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 840px){
+
+    .hand__heading{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+
+    .btn{
+        margin-top: 30px;
+    }
+    .community_inner:nth-child(2){
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .community_inner:nth-child(3){
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .community_heading{
+        font-size: 25px;
+    }
+
+    .community_text{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 670px){
+
+    .download_button{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .download_inner{
+        margin: 0;
+    }
+
+    .download_inner:first-child{
+        margin-bottom: 40px;
+        
+    }
 
 }
