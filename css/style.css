@@ -616,12 +616,3 @@ a{
 
 }
 
-@media(max-width: 450px){
-    .community__ptotos{
-        max-width: 200px;
-    }
-
-    .community__img{
-        max-width: 200px;
-    }
-}
